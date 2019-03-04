@@ -1,0 +1,26 @@
+ .section-nav-links {
+   display: flex;
+   justify-content: center;
+ }
+
+ .section-nav-links li {
+   margin: 10px;
+ }
+
+ .section-nav-links li a:hover{
+   background-color: $light-gray;
+   text-decoration: none;
+ }
+ 
+ .section-nav-links li .all-link {
+   font-variant:small-caps;
+ }
+ 
+ .section-nav-links li .all-link:hover{
+   background-color: transparent;
+   text-decoration: underline;
+ }
+ .section-nav {
+   font-family: $sans-serif;
+   font-size: 12px;
+ }
