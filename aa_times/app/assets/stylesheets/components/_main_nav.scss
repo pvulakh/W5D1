@@ -1,0 +1,47 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  // border: 1px solid red;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // border: 1px solid red;
+}
+
+.left-nav > ul > li {
+ padding: 8px;
+ border-radius: 3px;
+ transition: background-color 1s;
+}
+
+.right-nav > ul > li {
+  margin-right: 3px;
+}
+
+.right-nav > ul > li:last-of-type {
+  margin-right: 0px;
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background-color: $lightest-gray;
+}
+
+.left-nav span {
+  text-transform: uppercase;
+  font-family: $sans-serif;
+  font-size: $nav-font;
+  font-weight: 600;
+}
+
+
+.right-nav i {
+  padding: 8px;
+  border-radius: 3px;
+}
